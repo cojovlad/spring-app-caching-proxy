@@ -1,2 +1,2 @@
 # spring-app-caching-proxy
-Caching Proxy is a CLI‑driven proxy server built with Spring Boot and Caffeine. Launch it with --port and --origin to forward requests, cache full HTTP responses in memory, and mark them with X-Cache: MISS on first fetch or X-Cache: HIT on subsequent hits. Use --clear-cache to reset the cache.
+This is a Spring Boot-powered caching proxy server that forwards HTTP requests to a target origin, caches the responses in memory using Caffeine, and serves future requests instantly from cache. It adds headers like X-Cache: HIT/MISS and supports clearing the cache via CLI. Great for learning caching basics.
